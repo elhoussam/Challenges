@@ -1,0 +1,33 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(154, 116, 116);
+  /* overflow-y: hidden; */
+  /* scroll-behavior: smooth; */
+}
+
+.fillers {
+  border: 2px dotted wheat;
+  background-color: white;
+  margin: 10px;
+  height: 500px;
+}
+.top {
+  position: -webkit-fixed;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  /* background-color: yellow;
+    padding: 50px; */
+  font-size: 55px;
+}
