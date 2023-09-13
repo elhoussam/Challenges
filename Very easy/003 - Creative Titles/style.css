@@ -1,0 +1,181 @@
+:root {
+  --blue: rgb(44, 108, 210);
+  --red: rgb(207, 44, 44);
+  --green: rgb(48, 158, 14);
+  --orange: rgb(205, 102, 26);
+}
+.circle {
+  max-width: 250px;
+  position: relative;
+  border-bottom: 5px solid rgba(45, 0, 0, 0.26);
+}
+.circle::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  border-radius: 15px;
+  bottom: -10px;
+  left: -2px;
+}
+.circle::after {
+  content: "";
+  width: 180px;
+  height: 5px;
+  position: absolute;
+  border-radius: 15px;
+  bottom: -5px;
+  left: -2px;
+}
+.redColor {
+  color: var(--red);
+}
+.redColor::before,
+.redColor::after {
+  background-color: var(--red);
+}
+
+.blueColor {
+  color: var(--blue);
+}
+
+.blueColor::before,
+.blueColor::after {
+  background-color: var(--blue);
+}
+
+.greenColor {
+  color: var(--green);
+}
+
+.greenColor::before,
+.greenColor::after {
+  background-color: var(--green);
+}
+
+.orangeColor {
+  color: var(--orange);
+}
+
+.orangeColor::before,
+.orangeColor::after {
+  background-color: var(--orange);
+}
+
+.Box {
+  max-width: 250px;
+  position: relative;
+  border-bottom: 5px solid rgba(45, 0, 0, 0.26);
+}
+.Box::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  bottom: -10px;
+  left: -2px;
+}
+.Box::after {
+  content: "";
+  width: 180px;
+  height: 5px;
+  position: absolute;
+  bottom: -5px;
+  left: -2px;
+}
+
+.triangleup {
+  max-width: 250px;
+  position: relative;
+  border-bottom: 5px solid rgba(45, 0, 0, 0.26);
+}
+.triangleup::before {
+  content: "";
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  bottom: -2px;
+  left: -3px;
+}
+
+.triangleup::after {
+  content: "";
+  width: 180px;
+  height: 5px;
+  position: absolute;
+  bottom: -5px;
+  left: -2px;
+}
+
+.triangleups > .triangleup.redColor::before {
+  border-bottom-color: var(--red);
+  background-color: transparent;
+}
+.triangleups > .triangleup.blueColor::before {
+  border-bottom-color: var(--blue);
+  background-color: transparent;
+}
+.triangleups > .triangleup.orangeColor::before {
+  border-bottom-color: var(--orange);
+  background-color: transparent;
+}
+.triangleups > .triangleup.greenColor::before {
+  border-bottom-color: var(--green);
+  background-color: transparent;
+}
+
+.triangledown {
+  max-width: 250px;
+  position: relative;
+  border-bottom: 5px solid rgba(45, 0, 0, 0.26);
+}
+.triangledown::before {
+  content: "";
+  border-top: 10px solid;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  bottom: -25px;
+  left: -3px;
+}
+
+.triangledown::after {
+  content: "";
+  width: 180px;
+  height: 5px;
+  position: absolute;
+  bottom: -5px;
+  left: -2px;
+}
+
+.triangledowns > .triangledown.redColor::before {
+  border-top-color: var(--red);
+  background-color: transparent;
+}
+.triangledowns > .triangledown.blueColor::before {
+  border-top-color: var(--blue);
+  background-color: transparent;
+}
+.triangledowns > .triangledown.orangeColor::before {
+  border-top-color: var(--orange);
+  background-color: transparent;
+}
+.triangledowns > .triangledown.greenColor::before {
+  border-top-color: var(--green);
+  background-color: transparent;
+}
+
+.triangle {
+  position: absolute;
+  right: 11px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 15px solid #1100ff;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  /* margin-top: -10px; */
+}
