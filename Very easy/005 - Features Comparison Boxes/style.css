@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&display=swap");
+
+:root {
+  font-size: 62.5%;
+  --orange: rgb(244, 67, 54);
+  --red: rgb(233, 30, 99);
+  --blue: rgb(33, 150, 243);
+  --green: rgb(0, 150, 136);
+  --question: rgb(126, 126, 126);
+  --background: rgb(246, 246, 246);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Basic", sans-serif;
+  background-color: var(--background);
+}
+.offre-container {
+  margin: 10px auto;
+  height: 90vh;
+  max-width: 80vw;
+  display: grid;
+  grid-template-rows: 1fr 7fr;
+}
+
+.offres-header {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.discount-text {
+  background-color: var(--blue);
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 50%;
+  padding: 2px 10px;
+  padding-right: 14px;
+
+  font-weight: 550;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.discount-text::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1.5rem solid transparent;
+  border-top: 1.5rem solid transparent;
+  border-right: 1.2rem solid var(--background);
+  border-left: none;
+  right: -3px;
+}
+
+/* offre */
+
+.offres-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  /* padding: 0 2rem; */
+}
+.offre {
+  /* border: 1px dotted black; */
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  overflow: hidden;
+  color: white;
+}
+
+.offre-header {
+  padding: 1rem;
+  background-color: var(--blue);
+}
+.basic-offre__header {
+  background-color: var(--orange);
+}
+.offre-body {
+  list-style: none;
+  color: black;
+}
+
+.offre-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  border-bottom: 1px solid var(--background);
+}
+
+.offre-item__check {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  /* border: 1px solid green; */
+  background-color: var(--red);
+  margin-right: 1rem;
+}
+
+.offre-item__check::before {
+  position: absolute;
+  content: "";
+  background-color: white;
+  width: 6px;
+  height: 1px;
+  transform: rotate(46deg);
+  top: 7px;
+  left: 4.5px;
+}
+.offre-item__check::after {
+  position: absolute;
+  content: "";
+  background-color: white;
+  width: 6px;
+  height: 1px;
+  transform: rotate(-46deg);
+  top: 7px;
+  left: 4.5px;
+}
+
+.available-option {
+  background-color: var(--green);
+}
+.available-option::before {
+  position: absolute;
+  content: "";
+  background-color: white;
+  width: 3px;
+  height: 2px;
+  transform: rotate(49deg);
+  top: 7px;
+  left: 3.5px;
+}
+
+.available-option::after {
+  position: absolute;
+  content: "";
+  background-color: white;
+  width: 7px;
+  height: 2px;
+  transform: rotate(-40deg);
+  top: 7.2px;
+  left: 5.1px;
+}
