@@ -19,8 +19,7 @@
         "ItemUnit": "piece",
         "ItemQuantity": 1,
         "ItemPrice": 100.0,
-        "ItemTax": 10.0,
-        "ItemAmount": 110.0
+        "ItemTax": 10.0
       },
       {
         "ItemID": "002",
@@ -28,8 +27,7 @@
         "ItemUnit": "piece",
         "ItemQuantity": 1,
         "ItemPrice": 200.0,
-        "ItemTax": 20.0,
-        "ItemAmount": 220.0
+        "ItemTax": 20.0
       }
     ]
   },
@@ -53,8 +51,7 @@
         "ItemUnit": "piece",
         "ItemQuantity": 1,
         "ItemPrice": 300.0,
-        "ItemTax": 30.0,
-        "ItemAmount": 330.0
+        "ItemTax": 30.0
       }
     ]
   },
@@ -78,8 +75,7 @@
         "ItemUnit": "piece",
         "ItemQuantity": 2,
         "ItemPrice": 30.0,
-        "ItemTax": 3.0,
-        "ItemAmount": 66.0
+        "ItemTax": 3.0
       },
       {
         "ItemID": "002",
@@ -87,8 +83,7 @@
         "ItemUnit": "piece",
         "ItemQuantity": 1,
         "ItemPrice": 80.0,
-        "ItemTax": 8.0,
-        "ItemAmount": 88.0
+        "ItemTax": 8.0
       }
     ]
   },
@@ -112,8 +107,7 @@
         "ItemUnit": "piece",
         "ItemQuantity": 1,
         "ItemPrice": 300.0,
-        "ItemTax": 30.0,
-        "ItemAmount": 330.0
+        "ItemTax": 30.0
       },
       {
         "ItemID": "002",
@@ -121,8 +115,7 @@
         "ItemUnit": "piece",
         "ItemQuantity": 1,
         "ItemPrice": 50.0,
-        "ItemTax": 5.0,
-        "ItemAmount": 55.0
+        "ItemTax": 5.0
       }
     ]
   },
@@ -146,8 +139,7 @@
         "ItemUnit": "piece",
         "ItemQuantity": 2,
         "ItemPrice": 150.0,
-        "ItemTax": 15.0,
-        "ItemAmount": 330.0
+        "ItemTax": 15.0
       },
       {
         "ItemID": "002",
@@ -155,8 +147,7 @@
         "ItemUnit": "piece",
         "ItemQuantity": 1,
         "ItemPrice": 20.0,
-        "ItemTax": 2.0,
-        "ItemAmount": 22.0
+        "ItemTax": 2.0
       }
     ]
   },
@@ -180,8 +171,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 50.0,
-        "ItemTax": 5.0,
-        "ItemAmount": 55.0
+        "ItemTax": 5.0
       },
       {
         "ItemID": "002",
@@ -189,8 +179,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 60.0,
-        "ItemTax": 6.0,
-        "ItemAmount": 66.0
+        "ItemTax": 6.0
       }
     ]
   },
@@ -214,8 +203,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 70.0,
-        "ItemTax": 7.0,
-        "ItemAmount": 77.0
+        "ItemTax": 7.0
       },
       {
         "ItemID": "002",
@@ -223,8 +211,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 80.0,
-        "ItemTax": 8.0,
-        "ItemAmount": 88.0
+        "ItemTax": 8.0
       }
     ]
   },
@@ -248,8 +235,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 90.0,
-        "ItemTax": 9.0,
-        "ItemAmount": 99.0
+        "ItemTax": 9.0
       }
     ]
   },
@@ -273,8 +259,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 100.0,
-        "ItemTax": 10.0,
-        "ItemAmount": 110.0
+        "ItemTax": 10.0
       },
       {
         "ItemID": "002",
@@ -282,8 +267,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 50.0,
-        "ItemTax": 5.0,
-        "ItemAmount": 55.0
+        "ItemTax": 5.0
       }
     ]
   },
@@ -307,8 +291,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 80.0,
-        "ItemTax": 8.0,
-        "ItemAmount": 88.0
+        "ItemTax": 8.0
       }
     ]
   },
@@ -332,8 +315,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 70.0,
-        "ItemTax": 7.0,
-        "ItemAmount": 77.0
+        "ItemTax": 7.0
       },
       {
         "ItemID": "002",
@@ -341,8 +323,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 120.0,
-        "ItemTax": 12.0,
-        "ItemAmount": 132.0
+        "ItemTax": 12.0
       }
     ]
   },
@@ -366,8 +347,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 60.0,
-        "ItemTax": 6.0,
-        "ItemAmount": 66.0
+        "ItemTax": 6.0
       }
     ]
   },
@@ -391,8 +371,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 50.0,
-        "ItemTax": 5.0,
-        "ItemAmount": 55.0
+        "ItemTax": 5.0
       },
       {
         "ItemID": "002",
@@ -400,8 +379,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 40.0,
-        "ItemTax": 4.0,
-        "ItemAmount": 44.0
+        "ItemTax": 4.0
       }
     ]
   },
@@ -425,8 +403,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 30.0,
-        "ItemTax": 3.0,
-        "ItemAmount": 33.0
+        "ItemTax": 3.0
       }
     ]
   },
@@ -450,8 +427,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 40.0,
-        "ItemTax": 4.0,
-        "ItemAmount": 44.0
+        "ItemTax": 4.0
       },
       {
         "ItemID": "002",
@@ -459,8 +435,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 50.0,
-        "ItemTax": 5.0,
-        "ItemAmount": 55.0
+        "ItemTax": 5.0
       }
     ]
   },
@@ -484,8 +459,7 @@
         "ItemUnit": "service",
         "ItemQuantity": 1,
         "ItemPrice": 60.0,
-        "ItemTax": 6.0,
-        "ItemAmount": 66.0
+        "ItemTax": 6.0
       }
     ]
   }
